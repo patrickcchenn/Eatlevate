@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "918436387960",
+    "project_id": "eatlevate",
+    "storage_bucket": "eatlevate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918436387960:android:6972dde12a7fea1c59a18d",
+        "android_client_info": {
+          "package_name": "com.example.eatlevate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918436387960-t4btl4ogr0k27disogivpvp7ci6kjaa4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChuujmG2BJP_EQ_VsuLdF7wR8yWfox9pI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918436387960-t4btl4ogr0k27disogivpvp7ci6kjaa4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

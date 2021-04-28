@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110dp">
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Remove" />
+
+    <EditText
+        android:id="@+id/textout"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="242dp"
+        android:layout_toLeftOf="@id/remove"
+        android:hint="Time"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textout"
+        android:layout_alignRight="@+id/textout"
+        android:layout_marginEnd="-218dp"
+        android:layout_marginRight="-218dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextTextPersonName"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="-59dp"
+        android:layout_toStartOf="@+id/remove"
+        android:layout_toLeftOf="@+id/remove"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+
+</RelativeLayout>
